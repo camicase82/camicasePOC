@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:int="http://www.springframework.org/schema/integration"
+	xmlns:int-ip="http://www.springframework.org/schema/integration/ip"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/integration 
+http://www.springframework.org/schema/integration/spring-integration.xsd
+http://www.springframework.org/schema/integration/ip 
+http://www.springframework.org/schema/integration/ip/spring-integration-ip.xsd">
+
+	<context:component-scan base-package="com.mozido.inboundcomponents.grandcentral" />
+	
+	<int:annotation-config />
+	
+<!-- 	<int:channel id="toBSChannel" /> -->
+<!-- 	<int:channel id="iSOConverterChannel" /> -->
+<!-- 	<int:channel id="restRequestChannel" /> -->
+	
+<!-- 	<int-ip:tcp-connection-factory id="tcpConnectionFactory" -->
+<!-- 		type="server" port="9876" /> -->
+
+<!-- 	<int-ip:tcp-inbound-gateway id="tcpIpGateway" -->
+<!-- 		connection-factory="tcpConnectionFactory" request-channel="iSOConverterChannel" -->
+<!-- 		error-channel="errorChannel" /> -->
+	
+	
+</beans>
