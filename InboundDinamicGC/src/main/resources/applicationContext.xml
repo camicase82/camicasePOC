@@ -12,7 +12,7 @@ http://www.springframework.org/schema/integration/spring-integration.xsd
 http://www.springframework.org/schema/integration/ip 
 http://www.springframework.org/schema/integration/ip/spring-integration-ip.xsd">
 
-	<context:component-scan base-package="com.mozido.inboundcomponents.grandcentral" />
+	<context:component-scan base-package="com.client.inboundcomponents.grandcentral" />
 	
 	<int:annotation-config />
 	

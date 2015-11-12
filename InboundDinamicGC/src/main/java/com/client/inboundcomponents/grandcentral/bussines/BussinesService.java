@@ -1,4 +1,4 @@
-package com.mozido.inboundcomponents.grandcentral.bussines;
+package com.client.inboundcomponents.grandcentral.bussines;
 
 import org.springframework.integration.annotation.MessageEndpoint;
 import org.springframework.integration.annotation.ServiceActivator;

@@ -1,4 +1,4 @@
-package com.mozido.inboundcomponents.grandcentral.converter;
+package com.client.inboundcomponents.grandcentral.converter;
 
 import org.springframework.integration.annotation.MessageEndpoint;
 import org.springframework.integration.annotation.Transformer;

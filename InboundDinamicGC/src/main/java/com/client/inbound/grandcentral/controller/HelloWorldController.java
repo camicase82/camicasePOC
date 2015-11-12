@@ -1,4 +1,4 @@
-package com.mozido.inbound.grandcentral.controller;
+package com.client.inbound.grandcentral.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

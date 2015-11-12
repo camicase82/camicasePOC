@@ -1,4 +1,4 @@
-package com.mozido.inbound.grandcentral.service;
+package com.client.inbound.grandcentral.service;
 
 import java.io.File;
 import java.net.URL;
@@ -12,7 +12,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.integration.ip.tcp.TcpInboundGateway;
 import org.springframework.stereotype.Component;
 
-import com.mozido.inboundcomponents.grandcentral.si.SIBeansFactory;
+import com.client.inboundcomponents.grandcentral.si.SIBeansFactory;
 
 @Component
 @Scope("singleton")

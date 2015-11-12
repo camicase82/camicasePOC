@@ -1,4 +1,4 @@
-package com.mozido.inboundcomponents.grandcentral.si;
+package com.client.inboundcomponents.grandcentral.si;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,7 +30,7 @@ import org.springframework.integration.ip.tcp.connection.TcpNetServerConnectionF
 import org.springframework.stereotype.Component;
 import org.springframework.util.ClassUtils;
 
-import com.mozido.inboundcomponents.grandcentral.converter.IConverter;
+import com.client.inboundcomponents.grandcentral.converter.IConverter;
 
 @Component
 public class SIBeansFactory {

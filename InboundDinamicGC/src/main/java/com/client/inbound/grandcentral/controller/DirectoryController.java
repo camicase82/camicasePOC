@@ -1,4 +1,4 @@
-package com.mozido.inbound.grandcentral.controller;
+package com.client.inbound.grandcentral.controller;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.mozido.inbound.grandcentral.service.SIContextLoader;
+import com.client.inbound.grandcentral.service.SIContextLoader;
 
 /**
  * Servlet implementation class ReloadPageServlet
